@@ -1,5 +1,5 @@
 # GemDroid
-This repository contains GemDroid-related gem5 modification.
+This repository contains GemDroid-related gem5 modifications.
 
 ## Build
 	git clone https://github.com/GemDroidResearch/GemDroid_Android7.git
