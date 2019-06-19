@@ -1,7 +1,9 @@
 # GemDroid
+This repository contains GemDroid-related gem5 modification.
+
 ## Build
-	git clone https://github.com/gemdroid/GemDroid.git
-	cd GemDroid/
+	git clone https://github.com/GemDroidResearch/GemDroid_Android7.git
+	cd GemDroid_Android7
 	hg clone http://repo.gem5.org/gem5
 	cd gem5/
 	hg update -r 10231
@@ -9,7 +11,7 @@
 	cp -r ../gemdroid.src ./src
 	cp -r ../gemdroid.needed/gemdroid.dramsim2/* ./ext/dramsim2/
 	mkdir traces
-	cp your_trace.trace tarces/
+	cp your_trace.trace traces/
 	cp ../gemdroid.needed/*.txt ./
 	scons build/ARM/gem5.debug 
 	
