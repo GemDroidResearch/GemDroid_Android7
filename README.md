@@ -4,9 +4,9 @@ This repository contains GemDroid-related gem5 modifications.
 ## Build
 	git clone https://github.com/GemDroidResearch/GemDroid_gem5_Android7.git
 	cd GemDroid_Android7
-	hg clone http://repo.gem5.org/gem5
+	git clone https://gem5.googlesource.com/public/gem5
 	cd gem5/
-	hg update -r 10231
+	git checkout 0be64ff
 	rm -rf src/
 	cp -r ../gemdroid.src ./src
 	cp -r ../gemdroid.needed/gemdroid.dramsim2/* ./ext/dramsim2/
