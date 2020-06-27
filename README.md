@@ -13,6 +13,7 @@ This repository contains GemDroid-related gem5 modifications.
 	mkdir traces
 	cp your_trace.trace traces/
 	cp ../gemdroid.needed/*.txt ./
+	cp ../gemdroid.needed/*.py ./
 	scons build/ARM/gem5.debug 
 	
 ## Run
