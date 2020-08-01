@@ -2,8 +2,8 @@
 This repository contains GemDroid-related gem5 modifications.
 
 ## Build
-	git clone https://github.com/GemDroidResearch/GemDroid_gem5_Android7.git
-	cd GemDroid_Android7
+	git clone https://github.com/GemDroidResearch/GemDroid_gem5.git
+	cd GemDroid
 	git clone https://gem5.googlesource.com/public/gem5
 	cd gem5/
 	git checkout 0be64ff
